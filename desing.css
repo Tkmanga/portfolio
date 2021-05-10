@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#myLogo{
+    width: 70px;
+}
+
