@@ -1,15 +1,22 @@
 :root {
   --fontBse: "Poppins", sans-serif;
-  --headline1: bold 50px / normal var(--fontBse);
-  --headline2: bold 50px / normal var(--fontBse);
-  --headline3: bold 50px / normal var(--fontBse);
-  --headline4: bold 50px / normal var(--fontBse);
-  --headline5: bold 50px / normal var(--fontBse);
+  --headline1: bold 95px /153.71px var(--fontBse);
+  --headline2: bold 59px /95px var(--fontBse);
+  --headline3: bold 48px /77px var(--fontBse);
+  --headline4: bold 34px /55px var(--fontBse);
+  --headline5: bold 24px /38px var(--fontBse);
+  --body1: 16px /25px var(--fontBse);
+  --body2: 14px /22px var(--fontBse);
+  --btn: bold 14px /22px var(--fontBse);
+  --caption: 12px /19px var(--fontBse);
+  --cGray: #212121;
+  --cGray2: #757575;
 }
 body {
   background-color: bisque;
   min-height: 100vh;
-  font: var(--headline1);
+  font: var(--body1);
+  color: var(--cGray2);
 }
 
 .header {
