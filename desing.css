@@ -1,3 +1,5 @@
+@import "./button.css";
+
 :root {
   --fontBse: "Poppins", sans-serif;
   --headline1: bold 95px /153.71px var(--fontBse);
@@ -11,6 +13,8 @@
   --caption: 12px /19px var(--fontBse);
   --cGray: #212121;
   --cGray2: #757575;
+  --white: white;
+  --btn: ;
 }
 body {
   background-color: bisque;
