@@ -1,14 +1,22 @@
-body{
-    background-color: bisque;
-    min-height: 100vh;
+:root {
+  --fontBse: "Poppins", sans-serif;
+  --headline1: bold 50px / normal var(--fontBse);
+  --headline2: bold 50px / normal var(--fontBse);
+  --headline3: bold 50px / normal var(--fontBse);
+  --headline4: bold 50px / normal var(--fontBse);
+  --headline5: bold 50px / normal var(--fontBse);
+}
+body {
+  background-color: bisque;
+  min-height: 100vh;
+  font: var(--headline1);
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
-#myLogo{
-    width: 70px;
+#myLogo {
+  width: 70px;
 }
-
