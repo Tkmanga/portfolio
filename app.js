@@ -1,3 +1,5 @@
+/**
+
 const $form = document.getElementById("contacto");
 const $btnMailto = document.getElementById("truco");
 
@@ -14,5 +16,6 @@ function handleSubmit(e) {
     )}&body=${form.get("message")}`
   );
   $btnMailto.click();
-  
 }
+
+**/
