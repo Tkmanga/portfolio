@@ -14,4 +14,5 @@ function handleSubmit(e) {
     )}&body=${form.get("message")}`
   );
   $btnMailto.click();
+  
 }
